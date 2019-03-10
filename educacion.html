@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Hoja de vida</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+</head>
+<body>
+  
+  <div class="container-fluid">
+  	
+  	<div class="col-md-12">
+  		<svg height="130" width="500" >
+			  <defs>
+			    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+			      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+			      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+			    </linearGradient>
+			  </defs>
+			  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+			  <text fill="#ffffff" font-size="45" font-family="Verdana" x="30" y="86">WAMR</text>
+		</svg>
+  			
+  		<h1 class="text-center">Hoja de Vida</h1>
+        
+        <legend>Datos Personales</legend>
+        <h2>Nombres: Walter Andres</h2>
+        <h2>Apellidos: Maradiaga Rico</h2>
+  		<h3>Lugar Nacimiento: Tegucigalpa, Honduras</h3>
+        <h3>Fecha de nacimiento: 18-12-1990</h3>
+
+        <br>
+              
+        <ul  class="list-inline">
+		  <li><a href="index.html">Inicio</a></li>
+		  <li><a href="educacion.html">Educación</a></li>
+		  <li><a href="experiencia.html">Experiencia</a></li>
+		</ul> 
+
+		<br>
+
+        <h2>Educación</h2>
+        <table class="table">
+			<thead>
+			<tr>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>¿Culminó?</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>2014</td>
+				<td>Universidad Nacional Autonoma de Honduras</td>
+				<td>Tegucigalpa, Honduras</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+                <td>2008</td>
+				<td>Inst. Superacion San Francisco</td>
+				<td>Tegucigalpa, Honduras</td>
+				<td>Si</td>
+
+			</tr>
+			</tbody>
+		</table>
+		
+		<br>
+        <h2>Agregar Estudios</h2>
+        <form class="form-horizontal" action="#">
+			<div class="form-group">
+			  <label class="control-label col-sm-2" for="lisanio">Año:</label>
+			  <div class="col-sm-10">
+				<select id="lisanio" class="form-control">
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+				</select>
+			  </div>
+			</div>
+			<div class="form-group">
+			  <label class="control-label col-sm-2" for="inst">Institución:</label>
+			  <div class="col-sm-10">          
+				<input required type="text" class="form-control" id="inst" placeholder="Ingrese la Institución">
+			  </div>
+			</div>
+			<div class="form-group">
+			  <label class="control-label col-sm-2" for="lugar">Lugar:</label>
+			  <div class="col-sm-10">          
+				<textarea class="form-control" id="lugar" placeholder="Ingrese el Lugar"></textarea> 
+			  </div>
+			</div>
+			<div class="form-group">        
+			  <div class="col-sm-offset-2 col-sm-10">
+				<button type="submit" class="btn btn-default">Enviar</button>
+			  </div>
+			</div>
+		</form>
+
+  	</div>
+  </div>
+
+  <br>
+
+  <footer><center>Correo electrónico: waltermaradiaga.27@gmail.com, telefono: +504-89817630 </center></footer>
+
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>
